@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">SmartEducation</div>
+        <span class="sideMenuButton" onclick="openNavbar()">
+            ☰
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Registration">Registration</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+		responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()">
+
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Registration</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Coaching Classes for 10th and 12th</h1>
+            <button>
+                <a href="https://www.geeksforgeeks.org/">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src="image.jpg" width="500">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Classes</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Maths
+                        </a>
+                    </div>
+                    <p>
+                        Fundamentals of Maths covers basic arithmetic operations or calculations such as addition,
+                        subtraction,
+                        multiplication and division, which are taught to us in primary classes. Going forward, in higher
+                        classes, students
+                        will learn basic concepts like algebra, geometry, factors, ratios, etc.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Physics
+                        </a>
+                    </div>
+                    <p>
+                        The study of physics involves numerous topics such as thermodynamics, classical mechanics,
+                        relativity, quantum mechanics, optics, electricity, and magnetism. An individual studying
+                        physics is called a physicist.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Chemistry
+                        </a>
+                    </div>
+                    <p>
+                        Chemistry is the branch of science that deals with the properties, composition, and structure of
+                        elements and compounds, how they can change, and the energy that is released or absorbed when
+                        they change.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Contact no.</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your contact details here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            A-143, 9th Floor, Sovereign
+                            Corporate Tower, Sector-136,
+                            Noida, Uttar Pradesh - 201305
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            Greetings to all the students there!
+                            We welcome you where we
+                            consistently strive to offer the best
+                            of education. This platform has been
+                            designed for every student wishing to
+                            expand their knowledge, share their
+                            knowledge and is ready to grab their
+                            dream job. We have millions of articles,
+                            live as well as online courses, thousands
+                            of tutorials and much more just for the
+                            intelligetnt student inside you.Thank you for choosing
+                            and supporting us!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="https://www.geeksforgeeks.org/" target="_blank">
+                    Aradhya Tyagi
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
